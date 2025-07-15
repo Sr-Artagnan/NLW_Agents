@@ -49,6 +49,8 @@ export function QuestionForm({ roomId }: QuestionFormProps) {
     await createQuestion(data)
   }
 
+  const isLoading = form.formState.isSubmitting
+
   return (
     <Card>
       <CardHeader>
@@ -81,7 +83,9 @@ export function QuestionForm({ roomId }: QuestionFormProps) {
               )}
             />
 
-            <Button type="submit">Enviar pergunta</Button>
+            <Button disabled={isLoading} type="submit" className="w-full">
+              {isLoading ? 'Enviando...' : 'Enviar pergunta'}
+            </Button>
           </form>
         </Form>
       </CardContent>
