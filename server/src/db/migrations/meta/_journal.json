@@ -15,6 +15,13 @@
       "when": 1752150733991,
       "tag": "0001_sour_aaron_stack",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752577272805,
+      "tag": "0002_lovely_monster_badoon",
+      "breakpoints": true
     }
   ]
 }

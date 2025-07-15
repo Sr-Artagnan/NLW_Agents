@@ -29,10 +29,10 @@ GET {{baseUrl}}/rooms/{{roomId}}/questions
 
 # Create question
 # @name createQuestion
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+POST {{baseUrl}}/rooms/20b8b650-62c7-4286-cca6-c3693b7c8811/questions
 content-type: application/json
 
 {
-  "question": "Question 1"
+  "question": "Quando vai ser liberado o link do e-book?"
 }
 
